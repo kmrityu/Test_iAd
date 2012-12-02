@@ -18,6 +18,7 @@
 		865CC735166008D200300B74 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 865CC734166008D200300B74 /* Default-568h@2x.png */; };
 		865CC738166008D200300B74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC737166008D200300B74 /* ViewController.m */; };
 		865CC73B166008D200300B74 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 865CC739166008D200300B74 /* ViewController.xib */; };
+		865CC742166009E300300B74 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865CC741166009E300300B74 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		865CC736166008D200300B74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		865CC737166008D200300B74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		865CC73A166008D200300B74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		865CC741166009E300300B74 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				865CC742166009E300300B74 /* iAd.framework in Frameworks */,
 				865CC71F166008D200300B74 /* UIKit.framework in Frameworks */,
 				865CC721166008D200300B74 /* Foundation.framework in Frameworks */,
 				865CC723166008D200300B74 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +59,7 @@
 		865CC70F166008D200300B74 = {
 			isa = PBXGroup;
 			children = (
+				865CC741166009E300300B74 /* iAd.framework */,
 				865CC724166008D200300B74 /* Test_iAd */,
 				865CC71D166008D200300B74 /* Frameworks */,
 				865CC71B166008D200300B74 /* Products */,
@@ -255,6 +259,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Test_iAd/Test_iAd-Prefix.pch";
 				INFOPLIST_FILE = "Test_iAd/Test_iAd-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -266,6 +271,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Test_iAd/Test_iAd-Prefix.pch";
 				INFOPLIST_FILE = "Test_iAd/Test_iAd-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
